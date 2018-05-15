@@ -1,7 +1,5 @@
 # Contact_List_APIs
 
-# My Cart
-
 A Contact List ​APIs' implemented using Node.js (Express.js)
 
 ## Prerequisites (Used Technologies)
