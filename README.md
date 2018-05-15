@@ -17,14 +17,13 @@ After cloning, inside the project directory run the following:
 ```
 		mongorestore --db MyContacts MyContacts_dump
 		npm install; mongod; npm start
-
 ```
 
 
-## Running
+## Running (Example)
 
 ### Add new contact to User B:
-```
+```sh
 		Method: POST
 		Request URL: http://localhost:9999/contacts/addContact 
 		Request body (example) - JSON(application/json):
@@ -40,8 +39,8 @@ After cloning, inside the project directory run the following:
 			 }
 ```
 
-### Get all User B contacts:
-```
+### Get all User_B contacts:
+```sh
 		Method: POST
 		Request URL: http://localhost:9999/contacts/getList 
 		Request body (example) - JSON(application/json):
@@ -54,8 +53,8 @@ After cloning, inside the project directory run the following:
 			 }
 ```
 
-### Get User B last 5 contacts added:
-```
+### Get User_B last 5 contacts added:
+```sh
 		Method: POST
 		Request URL: http://localhost:9999/contacts/getRecentlist 
 		Request body (example) - JSON(application/json):
