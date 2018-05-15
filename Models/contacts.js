@@ -25,7 +25,7 @@ exports.getList = function(request,response){
 	const pageNum = request.body.pageNum ? request.body.pageNum:1;
 	const character = request.body.character ? request.body.character: false;
 	Contacts.find({_id: request.authId},function(error,result){
-		if(result[0] === undefined){
+		if(result[0].contacts.length === 0){
 			response.send("No contacts found");
 		}
 		else{
